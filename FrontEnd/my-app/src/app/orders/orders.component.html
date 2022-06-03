@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>OrdersID</th>
+      <th>CustomerId</th>
+      <th>Country</th>
+      <th>Ship city</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let post of orders">
+      <td data-label="First Name">{{ post.orderId }}</td>
+      <td data-label="Last Name">{{ post.customerId }}</td>
+      <td data-label="Hero Title">{{ post.shipCountry }}</td>
+      <td data-label="Hero Title">{{ post.shipCity }}</td>
+    </tr>
+  </tbody>
+</table>
