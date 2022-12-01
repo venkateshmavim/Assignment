@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'NaturalLandscapeAPI'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4D342A0E4296407CAA8A5EA8FB256697 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F8A84D8DCCA24865BC8FFE0597925145 }}
           package: .
